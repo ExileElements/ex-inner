@@ -1,5 +1,6 @@
 {
   "name": "ex-inner",
+  "version": "0.0.1",
   "description": "polymer ajax rederer component developed by exile",
   "main": "ex-inner.html",
   "authors": [
