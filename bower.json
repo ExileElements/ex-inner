@@ -1,0 +1,30 @@
+{
+  "name": "ex-inner",
+  "description": "polymer ajax rederer component developed by exile",
+  "main": "ex-inner.html",
+  "authors": [
+    "The Exile Authors"
+  ],
+  "keywords": [
+    "web-components",
+    "polymer",
+    "exile",
+    "ajax"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ExileElements/ex-inner.git"
+  },
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/ExileElements/ex-inner",
+  "ignore": [],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
+    "web-component-tester": "^4.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}

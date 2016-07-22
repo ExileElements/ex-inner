@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`ex-inner`
+ajax component for ajax by exile
+
+@demo demo/index.html 
+-->
+
+<dom-module id="ex-inner">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'ex-inner',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'ex-inner',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
