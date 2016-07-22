@@ -4,31 +4,34 @@
 `ex-inner`
 ajax component for ajax by exile
 
-@demo demo/index.html 
+@demo demo/index.html
 -->
 
 <dom-module id="ex-inner">
-  <template>
-    <style>
-      :host {
-        display: block;
-      }
-    </style>
-    <h2>Hello [[prop1]]</h2>
-  </template>
+    <template>
+        <style>
+            :host {
+                display: block;
+                outline: solid 1px red;
+            }
+        </style>
+    </template>
 
-  <script>
-    Polymer({
+    <script>
+        Polymer({
 
-      is: 'ex-inner',
+            is: 'ex-inner',
 
-      properties: {
-        prop1: {
-          type: String,
-          value: 'ex-inner',
-        },
-      },
+            properties: {
+                text: {
+                    type: String,
+                    observer: '_textChange',
+                },
+            },
 
-    });
-  </script>
+            _textChange: function(){
+                this.innerHTML = this.text
+            }
+        });
+    </script>
 </dom-module>
